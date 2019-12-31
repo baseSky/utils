@@ -1,0 +1,31 @@
+{
+  "name": "BastMain/utils",
+  "description": "Personal tools extension package",
+  "type": "1",
+  "require": {
+    "php": ">=5.6",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "php": ">=5.6"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bastmain",
+      "email": "527455294@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "BastMain\\utils\\": "src/"
+    }
+  },
+    "autoload-dev": {
+        "psr-4": {
+            "BastMain\\Tests\\": "tests/"
+        }
+    }
+}
